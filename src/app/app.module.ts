@@ -6,11 +6,15 @@ import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CarrousselComponent } from './carroussel/carroussel.component';
+import { IdeasComponent } from './ideas/ideas.component';
+import { IdeasListComponent } from './ideas-list/ideas-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CarrousselComponent
+    CarrousselComponent,
+    IdeasComponent,
+    IdeasListComponent
   ],
   imports: [
     BrowserModule,
