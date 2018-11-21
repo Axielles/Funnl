@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import { CarrousselComponent } from './carroussel/carroussel.component';
 import { IdeasComponent } from './ideas/ideas.component';
 import { IdeasListComponent } from './ideas-list/ideas-list.component';
+import { LateralComponent } from './lateral/lateral.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CarrousselComponent,
     IdeasComponent,
-    IdeasListComponent
+    IdeasListComponent,
+    LateralComponent
   ],
   imports: [
     BrowserModule,
