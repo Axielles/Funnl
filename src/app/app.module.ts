@@ -9,6 +9,7 @@ import { CarrousselComponent } from './carroussel/carroussel.component';
 import { IdeasComponent } from './ideas/ideas.component';
 import { IdeasListComponent } from './ideas-list/ideas-list.component';
 import { LateralComponent } from './lateral/lateral.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { LateralComponent } from './lateral/lateral.component';
     CarrousselComponent,
     IdeasComponent,
     IdeasListComponent,
-    LateralComponent
+    LateralComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
