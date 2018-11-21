@@ -12,6 +12,7 @@ import { IdeasComponent } from './ideas/ideas.component';
 import { IdeasListComponent } from './ideas-list/ideas-list.component';
 import { LateralComponent } from './lateral/lateral.component';
 import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,7 @@ import { HeaderComponent } from './header/header.component';
     IdeasComponent,
     IdeasListComponent,
     LateralComponent,
-    HeaderComponent
+    FooterComponent
   ],
   imports: [
     BrowserModule,

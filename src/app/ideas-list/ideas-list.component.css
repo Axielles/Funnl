@@ -1,4 +1,5 @@
 .list {
-    max-height: 325px;
-    overflow: scroll;
+    max-height: 318px;
+    /* overflow: scroll; */
+    overflow-y : auto;
 }
