@@ -21,6 +21,7 @@ import { FooterComponent } from './footer/footer.component';
     IdeasComponent,
     IdeasListComponent,
     LateralComponent,
+    HeaderComponent,
     FooterComponent
   ],
   imports: [
