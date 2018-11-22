@@ -16,6 +16,7 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 import { LostPasswordComponent } from './lost-password/lost-password.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { HomePageComponent } from './home-page/home-page.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { FooterComponent } from './footer/footer.component';
     IdeasListComponent,
     LateralComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    HomePageComponent
   ],
   imports: [
     BrowserModule,
