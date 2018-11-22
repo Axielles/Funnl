@@ -11,6 +11,9 @@ import { CarrousselComponent } from './carroussel/carroussel.component';
 import { IdeasComponent } from './ideas/ideas.component';
 import { IdeasListComponent } from './ideas-list/ideas-list.component';
 import { LateralComponent } from './lateral/lateral.component';
+import { SignInComponent } from './sign-in/sign-in.component';
+import { SignUpComponent } from './sign-up/sign-up.component';
+import { LostPasswordComponent } from './lost-password/lost-password.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 
@@ -18,6 +21,10 @@ import { FooterComponent } from './footer/footer.component';
   declarations: [
     AppComponent,
     CarrousselComponent,
+    LateralComponent,
+    SignInComponent,
+    SignUpComponent,
+    LostPasswordComponent,
     IdeasComponent,
     IdeasListComponent,
     LateralComponent,
