@@ -1,1 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+.bgfunnlGray {
+    background-color: rgb(99, 102, 106);
+    color: white;
+}
