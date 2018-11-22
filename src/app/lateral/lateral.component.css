@@ -1,0 +1,17 @@
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+}
+
+.sidenav a {
+  padding: 6px 6px 6px 6px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: black;
+}
