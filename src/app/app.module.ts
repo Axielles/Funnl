@@ -17,6 +17,7 @@ import { LostPasswordComponent } from './lost-password/lost-password.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomePageComponent } from './home-page/home-page.component';
+import { Erreur404Component } from './erreur404/erreur404.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { HomePageComponent } from './home-page/home-page.component';
     LateralComponent,
     HeaderComponent,
     FooterComponent,
-    HomePageComponent
+    HomePageComponent,
+    Erreur404Component
   ],
   imports: [
     BrowserModule,
