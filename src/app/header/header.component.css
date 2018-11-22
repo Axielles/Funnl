@@ -1,11 +1,16 @@
-.img-responsive {
-    max-width: 100px;
-    max-height: 100px;
+nav {
+    justify-content: center;
+    /* margin-top: auto; */
+}
+
+#funnlLogo {
+    max-width: 120px;
+    max-height: 120px;
 }
 
 #avatar {
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
 }
 
 .d-inline-block {
