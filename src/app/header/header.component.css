@@ -1,5 +1,11 @@
 .img-responsive {
-    max-width: 70%;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#avatar {
+    height: 100px;
+    width: 100px;
 }
 
 .d-inline-block {
