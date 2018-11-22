@@ -1,0 +1,25 @@
+<div class="container border col-12">
+  <div class="row">
+    <h2 class="ml-2 mt-1">Ideas</h2>
+      <div class="col mt-2">
+        <div ngbDropdown class="d-inline-block float-right">
+          <button class="btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle>Sort by Theme</button>
+        <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+          <button class="dropdown-item">Finance</button>
+          <button class="dropdown-item">Marketing</button>
+          <button class="dropdown-item">Another Theme</button>
+        </div>
+        <button type="button" class="btn btn-outline-primary">Most popular</button>
+        <button type="button" class="btn btn-outline-primary">Most recent</button>
+      </div>
+    </div>
+    <div class="row list ml-1 mr-1">
+      <app-ideas class="col-12"></app-ideas>
+      <app-ideas class="col-12"></app-ideas>
+      <app-ideas class="col-12"></app-ideas>
+      <app-ideas class="col-12"></app-ideas>
+    </div>
+</div>
+<!-- <div class="row">
+  <app-ideas *ngFor="let idea of ideasList" class="col-12 col-md-6 col-lg-4 mt-2"></app-ideas>
+</div> -->
