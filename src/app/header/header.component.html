@@ -2,45 +2,43 @@
   <a class="navbar-brand" routerLink="/homePage">
     <img src="../../assets/images/funnlFinalRognedBlack.png" class="img-responsive" alt="funnl logo" id="funnlLogo">
   </a>
-    <button type="button" class="navbar-toggler offset-5" data-toggle="collapse" (click)="toggleNavbar()" aria-controls="navbarNav" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button> 
+  <button type="button" class="navbar-toggler" data-toggle="collapse" (click)="toggleNavbar()" aria-controls="navbarNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button> 
 
-    <div class="collapse navbar-collapse" [ngClass]="{ 'show': navbarOpen }" id="navbarNav">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <button><a routerLink="/home" class="nav-link" (click)="toggleNavbar()">Home</a></button>
-        </li>
-        <li class="nav-item">
-          <button><a class="nav-link" (click)="toggleNavbar()">Create</a></button>
-        </li>
-        
-        
-      </ul>
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <button><a class="nav-link" (click)="toggleNavbar()">Admin</a></button>
-        </li>
-        <li class="nav-item">
-          <button><a class="nav-link" (click)="toggleNavbar()">Messages</a></button>
-        </li>
-        <li class="nav-item">
-          <button><a class="nav-link" (click)="toggleNavbar()">Notifications</a></button>
-        </li>
-        <a class="navbar-brand">
-            <img src="../../assets/images/lightBlueAvatar.png" class="img-responsive" alt="user image" id="avatar">
-        </a>
-        <div ngbDropdown class="d-inline-block">
-          <button><li class="nav-item" id="dropdownBasic1" ngbDropdownToggle>User Name</li></button>
-          <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
-            <button class="dropdown-item">Profile</button>
-            <button class="dropdown-item">Settings</button>
-            <button class="dropdown-item">Sign out</button>
-          </div>
+  <div class="collapse navbar-collapse" [ngClass]="{ 'show': navbarOpen }" id="navbarNav">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <button><a routerLink="/home" class="nav-link" (click)="toggleNavbar()">Home</a></button>
+      </li>
+      <li class="nav-item">
+        <button><a class="nav-link" (click)="toggleNavbar()">Create</a></button>
+      </li> 
+    </ul>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <button><a class="nav-link" (click)="toggleNavbar()">Admin</a></button>
+      </li>
+      <li class="nav-item">
+        <button><a class="nav-link" (click)="toggleNavbar()">Messages</a></button>
+      </li>
+      <li class="nav-item">
+        <button><a class="nav-link" (click)="toggleNavbar()">Notifications</a></button>
+      </li>
+      <a class="navbar-brand">
+          <img src="../../assets/images/lightBlueAvatar.png" class="img-responsive" alt="user image" id="avatar">
+      </a>
+      <div ngbDropdown class="d-inline-block">
+        <button><li class="nav-item" id="dropdownBasic1" ngbDropdownToggle>User Name</li></button>
+        <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+          <button class="dropdown-item">Profile</button>
+          <button class="dropdown-item">Settings</button>
+          <button class="dropdown-item">Sign out</button>
         </div>
-        <li class="nav-item">
-          <button><a class="nav-link" (click)="toggleNavbar()"> ? </a></button>
-        </li>
-      </ul>
-    </div>
+      </div>
+      <li class="nav-item">
+        <button><a class="nav-link" (click)="toggleNavbar()"> ? </a></button>
+      </li>
+    </ul>
+  </div>
 </nav>
