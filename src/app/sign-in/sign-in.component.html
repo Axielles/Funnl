@@ -1,14 +1,10 @@
-<!-- <div class="container-fluid"> -->
-  <div class="row">
-    <form class="col-9 col-md-5 col-lg-4 col-xl-4 form" [formGroup]="userForm" (ngSubmit)="onSubmitForm()">
-      <img src="../assets/logoFunnl.png" alt="logo Funnl">
-      <input class="email" type="email" placeholder="email" formControlName="email">
-      <input type="password" placeholder="password" formControlName="password">
-      <a [routerLink]="['/lostPassword']">Forgot password ?</a>
-      <button type="submit" [routerLink]="['/homePage']">Sign in</button>
-      <a [routerLink]="['/signUpForm']">Register</a>
-    </form>
-    <!-- <div class="col-7 illustration"> -->
-    <!-- </div> -->
-  </div>
-<!-- </div> -->
+<div class="row">
+  <form class="col-9 col-md-5 col-lg-4 col-xl-4 form" [formGroup]="userForm" (ngSubmit)="onSubmitForm()">
+    <img src="../assets/logoFunnl.png" alt="logo Funnl">
+    <input class="email" type="email" placeholder="email" formControlName="email">
+    <input type="password" placeholder="password" formControlName="password">
+    <a [routerLink]="['/lostPassword']">Forgot password ?</a>
+    <button type="submit" [routerLink]="['/homePage']">Sign in</button>
+    <a [routerLink]="['/signUpForm']">Register</a>
+  </form>
+</div>
