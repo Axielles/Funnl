@@ -9,7 +9,7 @@
           <button><a routerLink="/homePage" class="nav-link" (click)="toggleNavbar()">Home</a></button>
         </li>
         <li class="nav-item">
-          <button><a routerLink="/signInForm" class="nav-link" (click)="toggleNavbar()">Create</a></button>
+          <button><a routerLink="/homePage" class="nav-link" (click)="toggleNavbar()">Create</a></button>
         </li>
       </ul>
       <ul class="navbar-nav ml-auto">
@@ -30,7 +30,9 @@
           <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
             <button class="dropdown-item">Profile</button>
             <button class="dropdown-item">Settings</button>
-            <button class="dropdown-item">Sign out</button>
+            <button class="dropdown-item">
+              <a routerLink="/signInForm" class="nav-link" (click)="toggleNavbar()">Sign out</a>
+            </button>
           </div>
         </div>
         <li class="nav-item">
