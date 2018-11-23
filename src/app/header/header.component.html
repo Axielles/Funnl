@@ -6,27 +6,27 @@
     <div class="collapse navbar-collapse" [ngClass]="{ 'show': navbarOpen }" id="navbarNav">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <button><a routerLink="/homePage" class="nav-link" (click)="toggleNavbar()">Home</a></button>
+         <a routerLink="/homePage" class="nav-link" (click)="toggleNavbar()">Home</a>
         </li>
         <li class="nav-item">
-          <button><a routerLink="/homePage" class="nav-link" (click)="toggleNavbar()">Create</a></button>
+         <a routerLink="/homePage" class="nav-link" (click)="toggleNavbar()">Create</a>
         </li>
       </ul>
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <button><a routerLink="/homePage" class="nav-link" (click)="toggleNavbar()">Admin</a></button>
+          <a routerLink="/homePage" class="nav-link" (click)="toggleNavbar()">Admin</a>
         </li>
         <li class="nav-item">
-          <button><a routerLink="/homePage" class="nav-link" (click)="toggleNavbar()">Messages</a></button>
+          <a routerLink="/homePage" class="nav-link" (click)="toggleNavbar()">Messages</a>
         </li>
         <li class="nav-item">
-          <button><a routerLink="/homePage" class="nav-link" (click)="toggleNavbar()">Notifications</a></button>
+         <a routerLink="/homePage" class="nav-link" (click)="toggleNavbar()">Notifications</a>
         </li>
         <a class="navbar-brand">
             <img src="../../assets/images/lightBlueAvatar.png" class="img-responsive" alt="user image" id="avatar">
         </a>
         <div ngbDropdown class="d-inline-block">
-          <button><li class="nav-item" id="dropdownBasic1" ngbDropdownToggle>User Name</li></button>
+         <li class="nav-item" id="dropdownBasic1" ngbDropdownToggle>User Name</li>
           <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
             <button class="dropdown-item">Profile</button>
             <button class="dropdown-item">Settings</button>
@@ -36,7 +36,7 @@
           </div>
         </div>
         <li class="nav-item">
-          <button><a class="nav-link" (click)="toggleNavbar()"> ? </a></button>
+          <a class="nav-link" (click)="toggleNavbar()"> ? </a>
         </li>
       </ul>
     </div>

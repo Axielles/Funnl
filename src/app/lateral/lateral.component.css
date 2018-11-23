@@ -5,7 +5,7 @@
 }
 
 .sidenav a {
-  padding: 6px 6px 6px 6px;
+  padding: 12px 6px 12px 6px;
   text-decoration: none;
   text-align: center;
   font-size: 25px;
@@ -13,5 +13,5 @@
 }
 
 .sidenav a:hover {
-  color: white;
+  color: black;
 }
