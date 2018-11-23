@@ -1,8 +1,15 @@
+.row {
+    height: 950px;
+    background-image: url("https://zupimages.net/up/18/47/km5j.jpg");
+}
+
 form {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    background-color: white;
+    opacity: 0.85;
 }
 
 img {
@@ -37,10 +44,4 @@ a {
     color: rgba(45, 177, 255);
     font-size: 16px;
     margin-top: 2%; 
-}
-
-.illustration {
-    height: 950px;
-    background-image: url("https://zupimages.net/up/18/47/fdyj.jpg");
-    /* background-image: url("http://zupimages.net/up/18/47/vaqt.jpg"); */
 }

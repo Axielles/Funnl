@@ -1,3 +1,8 @@
+.row {
+    background-image: url("https://zupimages.net/up/18/47/km5j.jpg");
+    height: 950px;
+}
+
 .form {
     display: flex;
     flex-direction: column;
@@ -46,11 +51,4 @@ button {
 
 button:hover {
     box-shadow: 0px 0px 0px black;
-}
-
-.row {
-    /* background-image: url("https://zupimages.net/up/18/47/vaqt.jpg"); */
-    background-image: url("https://zupimages.net/up/18/47/fdyj.jpg");
-    /* background-repeat: no-repeat; */
-    height: 950px;
 }
