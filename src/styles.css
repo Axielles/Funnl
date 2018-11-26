@@ -17,8 +17,45 @@
 .container-fluid {
   padding: 0px;
 }
+
 /*
 black = rgb(0, 0, 0);
 yellow = rgb(246, 190, 0);
 blue = rgb(45, 177, 255);
 */
+
+.mybtn-outline-primary{
+  color: rgb(45, 177, 255);
+  background-color: transparent;
+  background-image: none;
+  border-color: rgb(45, 177, 255);
+}
+
+.mybtn-outline-primary:hover {
+  background-color: rgb(45, 177, 255);
+}
+
+.mybtn-outline-warning{
+  color: rgb(246, 190, 0);
+  background-color: transparent;
+  background-image: none;
+  border-color: rgb(246, 190, 0);
+}
+
+.mybtn-outline-warning:hover {
+  background-color: rgb(246, 190, 0);
+}
+
+/* .navbar a:hover {
+  color: rgb(0, 0, 0);
+} */
+
+.navbar a {
+  text-align: center;
+  font-size: 100%;
+  color: white;
+}
+
+.d-inline-block a {
+  color: rgb(0, 0, 0);
+}

@@ -1,17 +1,29 @@
-.sidenav {
+.navbar {
   height: 100%;
-  width: 200px;
+  width: 10%;
   position: fixed;
+  justify-content: center;
 }
 
-.sidenav a {
-  padding: 12px 6px 12px 6px;
-  text-decoration: none;
+li {
+  padding-bottom: 10%;
+}
+
+.navbar a {
   text-align: center;
-  font-size: 25px;
-  display: block;
+  font-size: 100%;
+  color: white;
 }
 
-.sidenav a:hover {
-  color: black;
+button {
+  width: 100%;
 }
+/* 
+button:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(45, 177, 255);
+}
+
+a:hover {
+  color: rgb(0, 0, 0);
+} */
